@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>7. Forms and Input Tags</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+
+  <!-- HTML FORM -->
+  <form action="post">
+
+    <!-- TEXT BOX -->
+    <div>
+      <label for="username">Enter your Username: </label>
+      <input type="text" id="username" name="username" placeholder="Enter your username">
+    </div>
+
+    <hr>
+
+    <!-- PASSWORDS -->
+     <label for="password">Enter your Password:   </label>
+     <input type="password" name="password" id="password" placeholder="Enter password" pattern="[a-zA-Zf0-9]+">
+
+     <hr>
+
+    <!-- RADIO BUTTONS -->
+    <div>
+      <label for="male">Male </label>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="female">Female </label>
+      <input type="radio" name="gender" id="female" value="female">
+    </div>
+
+    <hr>
+
+    <!-- CHECKBOX -->
+    <div>
+      <label for="checkbox">Subscribe ?</label>
+      <input type="checkbox" name="checkbox" id="checkbox">
+    </div>
+
+    <hr>
+
+    <!-- TEXTAREA -->
+    <div>
+      <label for="comment"></label>
+      <textarea name="comment" id="comment" rows="4" cols="50">Enter your comment Here....
+      </textarea>
+    </div>
+
+    <hr>
+
+    <!-- SELECT -->
+     <select name="fruits" id="fruits">
+      <option value="apple">Apple</option>
+      <option value="banana">Banana</option>
+      <option value="ornage">Orange</option>
+     </select>
+  </form>
+
+
+</body>
+
+
+<script src="./JavaScript/script.js"></script>
+
+</html>
