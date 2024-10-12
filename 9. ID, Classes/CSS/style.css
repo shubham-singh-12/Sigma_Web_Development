@@ -1,0 +1,11 @@
+.red {
+    color: rgb(0, 21, 255);
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+#firstdiv {
+    background-color: red;
+}
