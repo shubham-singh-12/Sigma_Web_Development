@@ -1,0 +1,60 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap');
+
+/* Font, Text */
+/* h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+
+/* h2 {
+    text-transform: capitalize;
+} */
+
+/* p {
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+
+    text-decoration: underline;
+    text-decoration-color: royalblue;
+    text-decoration-style: solid;
+    text-decoration-thickness: 5px;
+    text-indent: 40px;
+    text-align: center;
+
+    width: 50%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+    border: 2px solid black;
+    line-height: 4;
+    letter-spacing: 5px;
+} */
+
+
+/* Color */
+h1 {
+    color: purple;
+    background-color: #6c8dc5;
+}
+
+ol>li:first-child {
+    color: green;
+}
+
+ol>li:nth-child(2) {
+    color: #008000;
+}
+
+ol>li:nth-child(3) {
+    color: rgb(00, 128, 00);
+}
+
+ol>li:nth-child(4) {
+    color: rgba(00, 128, 00, 1);
+}
+
+ol>li:nth-child(5) {
+    color: hsl(120, 100%, 25.1%);
+}
