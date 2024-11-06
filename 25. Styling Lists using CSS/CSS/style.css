@@ -1,0 +1,13 @@
+nav ul li {
+    /* list-style: devanagari; */
+    list-style: none;
+    list-style-position: inside;
+    border: 2px solid black;
+    background-color: yellowgreen;
+    padding: 2px;
+    margin: 20px;
+}
+
+nav ul {
+    display: flex;
+}
