@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    /* display: inline; */
+    display: inline-block;
+    border: 2px solid black;
+    padding: 40px;
+    margin: 30px;
+}
+
+span {
+    border: 2px solid black;
+}
