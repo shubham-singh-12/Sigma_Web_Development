@@ -1,0 +1,36 @@
+/* All the property declared here is globally accepted. */
+:root {
+  --color: blue;
+  --seccolor: rgb(174, 174, 222);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  /* background-color: greenyellow; */
+  background-color: var(--color);
+}
+
+ul {
+
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+  padding: 34px;
+}
+
+/* The property declared here is locally accepted (Accept here only). */
+ul li:first-child{
+  --color: rgb(255, 0, 255);
+  background-color: var(--color);
+}
+
+.container {
+  background-color: var(--seccolor);
+}
