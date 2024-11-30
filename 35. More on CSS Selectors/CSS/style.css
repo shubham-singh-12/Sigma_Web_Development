@@ -1,0 +1,29 @@
+.box:first-child {
+  background-color: red;
+}
+
+.box:nth-child(2)::first-line {
+  color: blue;
+}
+
+
+/* Attribute Selector */
+[data-color="primary"]{
+  border: 2px solid black;
+  padding-top: 20px;
+  margin-top: 45px;
+}
+
+.boxes::before{
+  content: 'Shubham';
+  color: yellowgreen;
+}
+
+.boxes::after{
+  content: 'Singh';
+  color: rgb(255, 0, 0);
+}
+
+input::placeholder{
+  color: blueviolet;
+}
