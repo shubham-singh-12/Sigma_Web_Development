@@ -1,0 +1,33 @@
+/* :root {
+  --primary-color: #ad5afacc;
+  --text-color: white;
+  --secondary-color: #e3cff5cc;
+} */
+
+:root {
+  --primary-color: #34f057cc;
+  --text-color: white;
+  --secondary-color: #e3cff5cc;
+}
+
+body {
+  background-color: var(--secondary-color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: var(--primary-color);
+  padding: 12px 0px;
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+  padding: 23px;
+  font-weight: bolder;
+  color: var(--text-color);
+}
