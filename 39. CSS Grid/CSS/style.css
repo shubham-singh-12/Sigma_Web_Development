@@ -1,0 +1,57 @@
+.container {
+  border: 2px solid yellow;
+  /* width: 80vw; */
+
+  display: grid;
+
+  /* grid-template-columns: 120px 100px;
+  grid-template-rows: 100px 100px 100px; */
+
+  /* grid-template-columns: 1fr 1fr 1fr; */
+
+  grid-template-areas: "nav nav nav"
+    "side article article"
+    "footer footer footer"
+    "copyright copyright copyright";
+}
+
+.item {
+  border: 2px solid red;
+  height: 55px;
+  /* width: 55px; */
+}
+
+.item-1 {
+  grid-area: nav;
+  background-color: aqua;
+}
+
+.item-2 {
+  grid-area: side;
+  background-color: beige;
+}
+
+.item-3 {
+  grid-area: article;
+  background-color: rgb(69, 131, 131);
+}
+
+.item-4 {
+  /* Placed item start from 1st & ends at 2. */
+
+  /* grid-row-start: 1;
+  grid-row-end: 2; */
+
+  /* grid-row: 1/2; */
+
+  /* Placed item start from 1st & ends at 2. */
+  /* grid-column: 1/2; */
+
+  grid-area: footer;
+  background-color: brown;
+}
+
+.item-5 {
+  grid-area: copyright;
+  background-color: blue;
+}
