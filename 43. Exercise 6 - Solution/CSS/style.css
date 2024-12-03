@@ -1,0 +1,24 @@
+:root {
+  --primary-font: 'Segoe UI';
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: var(--primary-font);
+}
+
+.logo img {
+  width: 165px;
+
+}
+
+.right ul {
+  display: flex;
+  gap: 35px;
+}
+
+.right ul li {
+  list-style: none;
+}
