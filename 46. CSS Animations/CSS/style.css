@@ -1,0 +1,50 @@
+.container {
+  background-color: blueviolet;
+  height: 80vh;
+  width: 30vw;
+}
+
+.box {
+  width: 34px;
+  height: 45px;
+  background-color: aqua;
+
+  /* animation-name: shubhamAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s; */
+  /* animation-direction: alternate; */
+
+  animation: shubhamAnimation 3s ease-in-out infinite;
+}
+
+/* @keyframes shubhamAnimation {
+  from {}
+
+  to {
+    transform: translateX(1000px);
+  }
+} */
+
+@keyframes shubhamAnimation {
+  0% {
+    transform: rotate(72deg);
+  }
+
+  25% {
+    transform: rotate(144deg);
+  }
+
+  50% {
+    transform: rotate(216deg);
+  }
+
+  75% {
+    transform: rotate(288deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
