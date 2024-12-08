@@ -1,0 +1,161 @@
+:root {
+  --primary-font: 'Segoe UI';
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: var(--primary-font);
+}
+
+.logo img {
+  width: 165px;
+
+}
+
+.right ul {
+  display: flex;
+  gap: 35px;
+}
+
+.right ul li {
+  list-style: none;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 70px;
+  font-family: var(--primary-font);
+}
+
+.first span {
+  font-size: 40px;
+}
+
+section span img {
+  width: 85px;
+  margin: 0px 5px;
+}
+
+.first p {
+  font-size: 20px;
+  width: 50vw;
+  text-align: center;
+}
+
+.first button {
+  font-size: 14px;
+  background-color: #00b6d1;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 12px 20px !important;
+  min-height: 48px;
+  min-width: 256px;
+  text-align: center;
+  color: #fff;
+}
+
+.second {
+  max-width: 60vw;
+  margin: auto;
+}
+
+.download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: var(--primary-font);
+}
+
+.download img {
+  padding: 0px 10px;
+}
+
+.download :nth-child(2) {
+  font-size: 23px;
+  font-family: var(--primary-font);
+  font-weight: 550;
+}
+
+.download .small {
+  font-size: 18px;
+  font-family: var(--primary-font);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+  font-family: var(--primary-font);
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 302px;
+  background-color: #f9f9f9;
+  text-align: center;
+  border-radius: 5px;
+  margin: 40px 20px;
+  padding: 20px 10px;
+}
+
+.item .item-lang {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.item-lang {
+  display: flex;
+}
+
+.btn {
+  font-size: 12px;
+  background-color: #5cb85c;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: none;
+  padding: 8px 15px;
+  min-height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hash {
+  font-family: var(--primary-font);
+  word-break: break-word;
+  font-size: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  line-height: 1rem;
+}
+
+/* Media query */
+@media screen and (max-width: 1145px) {
+  .grid {
+    grid-template-columns: 1fr;
+    font-family: var(--primary-font);
+    /* background-color: red; */
+  }
+}
