@@ -1,0 +1,38 @@
+.container {
+  height: 80vh;
+  width: 80vw;
+  position: relative;
+  background-color: blue;
+}
+
+.box {
+  height: 120px;
+  width: 120px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  animation: animateX 3s linear infinite alternate-reverse, animateY 1s ease-out infinite alternate-reverse;
+}
+
+@keyframes animateX {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes animateY {
+  from {
+    bottom: 0;
+  }
+
+  to {
+    bottom: 100%;
+  }
+}
