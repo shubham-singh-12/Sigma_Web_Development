@@ -1,0 +1,48 @@
+.container {
+  position: relative;
+  height: 80vh;
+  width: 80vw;
+  background-color: blue;
+}
+
+.box {
+  height: 120px;
+  width: 120px;
+  background-color: red;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  animation: yAxis 1s ease-in-out infinite alternate, xAxis 1.5s linear infinite alternate;
+}
+
+
+/* Solution */
+@keyframes yAxis {
+  0% {
+    bottom: 0;
+  }
+
+  50% {
+    bottom: 200px;
+  }
+
+  100% {
+    bottom: 0;
+  }
+}
+
+@keyframes xAxis {
+  0% {
+    left: 0;
+  }
+
+  50% {
+    left: calc(50% - 120px);
+  }
+
+  100% {
+    left: calc(100% - 120px);
+    /* Moves the ball horizontally across the container */
+  }
+}
